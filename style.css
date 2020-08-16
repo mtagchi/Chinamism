@@ -93,8 +93,9 @@ blockquote::after {
 /* -------------------------------------------------------------------------- */
 
 
+/* Color variables */
 :root {
-  --header: #883138;
+  --header: #9E333C;
   --color: #191E23;
   --bgcolor: #E8444B;
 }
@@ -103,10 +104,6 @@ body {
   font-family: sans-serif;
   font-size: 16px;
   color: var(--color);
-}
-
-body * {
-  box-sizing: border-box;
 }
 
 body * {
@@ -136,7 +133,6 @@ header {
   box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.05);
   width: 100%;
   z-index: 2;
-
 }
 
 .title {
@@ -148,7 +144,11 @@ header {
   font-family: 'Amatic SC', cursive;
   letter-spacing: 2px;
   font-size: 42px;
-  color:#FFFFFF;
+}
+
+.chinami_logo a {
+  color: #FFFFFF;
+  text-decoration: none;
 }
 
 .nav-right{
@@ -160,7 +160,7 @@ header {
 .nav-list-item{
   display: inline-block;
   font-size: 16px;
-  color: #9E333C;
+  color: var(--header);
   font-weight: bold;
   padding-left: 10px;
   text-decoration: none;
