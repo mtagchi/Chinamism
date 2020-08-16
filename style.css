@@ -20,6 +20,9 @@ with others.
 
   0. CSS Reset
   1. Common
+  2. Header
+  3. Top page
+  4. Schedule page
 
 ----------------------------------------------------------------------------- */
 
@@ -89,10 +92,160 @@ blockquote::after {
 /* -------------------------------------------------------------------------- */
 
 
+:root {
+  --header: #883138;
+  --color: #191E23;
+  --bgcolor: #E8444B;
+}
+
 body {
   font-family: sans-serif;
+  font-size: 16px;
+  color: var(--color);
+}
+
+body * {
+  box-sizing: border-box;
 }
 
 img {
   max-width: 100%;
+}
+
+.title {
+  font-weight: bold;
+  text-align: center;
+}
+
+
+/* -------------------------------------------------------------------------- */
+
+/* 2. Header
+/* -------------------------------------------------------------------------- */
+
+
+/* -------------------------------------------------------------------------- */
+
+/* 3. Top page
+/* -------------------------------------------------------------------------- */
+
+
+/* -------------------------------------------------------------------------- */
+
+/* 4. Schedule page
+/* -------------------------------------------------------------------------- */
+
+
+.schedule-title {
+  height: 32px;
+  line-height: 32px;
+  font-size: 18px;
+}
+
+.calendar-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 0 12px;
+}
+
+.simcal-calendar {
+  padding: 0 !important;
+}
+
+.simcal-align-right {
+  display: none !important;
+}
+
+.simcal-event-details {
+  display: flex;
+  border-bottom: 1px solid var(--color);
+  padding-bottom: 10px;
+}
+
+.calendar-left, .calendar-center {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.calendar-left {
+  justify-content: center;
+  align-items: center;
+  width: 112px;
+  min-width: 112px;
+  font-weight: bold;
+}
+
+.calendar-date {
+  display: flex;
+  height: 32px;
+  flex-direction: column;
+  color: #191E2300;
+}
+
+.calendar-date .simcal-event-start-date {
+  color: var(--color);
+  font-size: 17px;
+}
+
+.calendar-day {
+  font-size: 15px;
+}
+
+.calendar-center, .calendar-right {
+  font-size: 14px !important;
+}
+
+.calendar-center {
+  justify-content: space-evenly;
+  width: calc(100% - 112px - 92px);
+  min-width: 100px;
+}
+
+.calendar-title {
+  font-weight: bold;
+}
+
+.calendar-time {
+  margin-left: -10px;
+}
+
+.calendar-time .simcal-event-start-date {
+  display: none;
+}
+
+.calendar-right {
+  width: 92px;
+  min-width: 92px;
+}
+
+.calendar-location {
+  width: 80px;
+  margin: 6px;
+  overflow: hidden;
+  background: white;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.simcal-event-start-location {
+  position: relative;
+  display: block;
+  height: 48px;
+  line-height: 16px;
+}
+.simcal-event-start-location:before {
+  position: absolute;
+  content: "...";
+  text-decoration: underline;
+  background: white;
+  top: 32px;
+  right: 0;
+}
+.simcal-event-start-location:after {
+  position: absolute;
+  content: "";
+  background: white;
+  width: 100%;
+  height: 100%;
 }
