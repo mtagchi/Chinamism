@@ -115,7 +115,10 @@ body * {
 
 img {
   max-width: 100%;
+}
 
+main {
+  padding-top: 60px;
 }
 
 /* -------------------------------------------------------------------------- */
@@ -160,6 +163,7 @@ header {
   color: #9E333C;
   font-weight: bold;
   padding-left: 10px;
+  text-decoration: none;
 }
 
 @media screen and (max-width:520px) {
@@ -185,6 +189,7 @@ header {
   height: 32px;
   line-height: 32px;
   font-size: 18px;
+  margin-top: 8px;
 }
 
 .calendar-container {

@@ -21,10 +21,10 @@
 
   <div class="nav-right">
       <ul class="nav-list">
-        <li class="nav-list-item">Profile</li>
-        <li class="nav-list-item">Skills</li>
-        <li class="nav-list-item">Contact</li>
-        <li class="nav-list-item">Schedule</li> 
+        <a href="#" class="nav-list-item">Profile</a>
+        <a href="#" class="nav-list-item">Skills</a>
+        <a href="#" class="nav-list-item">Contact</a>
+        <a href="schedule" class="nav-list-item">Schedule</a> 
       </ul>
     </div>
   </header>
