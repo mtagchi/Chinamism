@@ -27,4 +27,4 @@
         <li class="nav-list-item">Schedule</li> 
       </ul>
     </div>
-  </header> 
+  </header>
