@@ -12,19 +12,19 @@
 
 <body <?php body_class(); ?>>
   <header>
+    <div class="nav-left">
+      <h1 class="chinami_logo">
+          <a href=<?php echo home_url( '/' ) ?>>CHINAMISM</a>
+        </h1>
+    </div>
 
-  <div class="nav-left">
-    <h1 class="chinami_logo">
-        <a>CHINAMISM</a>
-      </h1>
-  </div>
-
-  <div class="nav-right">
+    <div class="nav-right">
       <ul class="nav-list">
-        <a href="#" class="nav-list-item">Profile</a>
-        <a href="#" class="nav-list-item">Skills</a>
-        <a href="#" class="nav-list-item">Contact</a>
-        <a href="schedule" class="nav-list-item">Schedule</a> 
+        <a href=<?php echo home_url( '/#profile' ) ?> class="nav-list-item">Profile</a>
+        <a href=<?php echo home_url( '/#skills' ) ?> class="nav-list-item">Skills</a>
+        <a href=<?php echo home_url( '/#experience' ) ?> class="nav-list-item">Experience</a>
+        <a href=<?php echo home_url( '/#contact' ) ?> class="nav-list-item">Contact</a>
+        <a href="schedule" class="nav-list-item">Schedule</a>
       </ul>
     </div>
   </header>
