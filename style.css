@@ -117,10 +117,6 @@ img {
   max-width: 100%;
 }
 
-main {
-  padding-top: 60px;
-}
-
 /* -------------------------------------------------------------------------- */
 
 /* 2. Header
@@ -129,7 +125,7 @@ main {
 header {
   display: flex;
   justify-content: space-between;
-  background-color: #292929;
+  background-color: #29292900;  
   height: 60px;
   padding: 0 30px;
   position: fixed;
@@ -166,6 +162,15 @@ header {
   text-decoration: none;
 }
 
+.nav-list-item:hover{
+  color: #9E333C;
+  opacity: 0.7;
+}
+
+
+
+
+
 @media screen and (max-width:520px) {
   .nav-list-item:not(:last-child) {
     display: none;
@@ -177,6 +182,112 @@ header {
 
 /* 3. Top page
 /* -------------------------------------------------------------------------- */
+.video-container{
+  overflow-x: hidden;
+}
+
+video{
+  width: calc(100% + 10px);
+  height: auto;
+  position: relative;
+
+}
+
+.top-quote{
+  position: absolute;
+  font-family: 'Amatic SC', cursive;
+  letter-spacing: 2px;
+  text-align: center;
+  color: #FFFFFF;
+  /* padding-top: 270px; */
+  animation: fadein-quote 3s ease-in-out;
+}
+
+@keyframes fadein-quote{
+  0%{
+    opacity: 0;
+    padding-top: 50px;
+  }
+  100%{
+    opacity: 1;
+    padding-top: 0px;
+
+  }
+}
+
+@media screen and (min-width: 1200.1px) {
+  .top-quote{
+    font-size: 60px; 
+    width: 600px;
+    top: 35%;
+    left: 50%;
+  }
+}
+
+@media screen and (min-width: 800.1px) and (max-width: 1200px) {
+  .top-quote{
+    font-size: 60px; 
+    width: 600px;
+    top: 35%;
+    left: 25%;
+  }
+}
+
+@media screen and (min-width: 600.1px) and (max-width: 800px) {
+  .top-quote{
+    font-size: 60px; 
+    width: 600px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+}
+
+@media screen and (min-width: 480.1px) and (max-width: 600px) {
+  .top-quote{
+    font-size: 45px;
+    width: 480px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  .top-quote{
+    font-size: 30px;
+    width: 480px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+}
+
+@media screen and (min-width: 480.1px) and (max-width: 740px) {
+  video{
+    width: auto;
+    height: 500px
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  video{
+    width: auto;
+    height: 812px;
+    left: -50vw;
+    position: relative;
+  }
+}
+
+
+
+
+
+
+
+
+
+
 
 
 /* -------------------------------------------------------------------------- */
