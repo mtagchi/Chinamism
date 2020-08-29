@@ -6,7 +6,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0 ">
   <link rel="stylesheet" href="<?php echo get_stylesheet_uri(); ?>">
-  <link href="https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap" rel="stylesheet" type="text/css">
   <?php wp_head(); ?>
 </head>
 
@@ -23,7 +23,7 @@
         <a href=<?php echo home_url( '/#' ) ?> class="nav-list-item">Profile</a>
         <a href=<?php echo home_url( '/#' ) ?> class="nav-list-item">Skills</a>
         <a href=<?php echo home_url( '/#' ) ?> class="nav-list-item">Contact</a>
-        <a href="schedule" class="nav-list-item">Schedule</a> 
+        <a href="schedule" class="nav-list-item">Schedule</a>
       </ul>
     </div>
   </header>
