@@ -93,8 +93,10 @@ blockquote::after {
 /* -------------------------------------------------------------------------- */
 
 
+/* Color variables */
 :root {
-  --header: #883138;
+  --header: #292929;
+  --header-btn: #9E333C;
   --color: #191E23;
   --bgcolor: #E8444B;
 }
@@ -109,10 +111,6 @@ body * {
   box-sizing: border-box;
 }
 
-body * {
-  box-sizing: border-box;
-}
-
 img {
   max-width: 100%;
 }
@@ -120,6 +118,7 @@ img {
 main {
   padding-top: 60px;
 }
+
 
 /* -------------------------------------------------------------------------- */
 
@@ -129,14 +128,13 @@ main {
 header {
   display: flex;
   justify-content: space-between;
-  background-color: #292929;
+  background-color: var(--header);
   height: 60px;
   padding: 0 30px;
   position: fixed;
   box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.05);
   width: 100%;
   z-index: 2;
-
 }
 
 .title {
@@ -148,7 +146,11 @@ header {
   font-family: 'Amatic SC', cursive;
   letter-spacing: 2px;
   font-size: 42px;
-  color:#FFFFFF;
+}
+
+.chinami_logo a {
+  color: #FFFFFF;
+  text-decoration: none;
 }
 
 .nav-right{
@@ -160,13 +162,13 @@ header {
 .nav-list-item{
   display: inline-block;
   font-size: 16px;
-  color: #9E333C;
+  color: var(--header-btn);
   font-weight: bold;
   padding-left: 10px;
   text-decoration: none;
 }
 
-@media screen and (max-width:520px) {
+@media screen and (max-width: 630px) {
   .nav-list-item:not(:last-child) {
     display: none;
   }
@@ -178,6 +180,80 @@ header {
 /* 3. Top page
 /* -------------------------------------------------------------------------- */
 
+section.top {
+  height: 100vh;
+}
+
+section:not(.top) {
+  height: 100vh;
+  min-height: 500px;
+  margin-top: -60px;
+  padding-top: 60px;
+}
+
+.section-title {
+  position: relative;
+  overflow-y: hidden;
+}
+
+.section-title-text {
+  position: absolute;
+  left: 50%;
+  text-align: center;
+  font-size: 28px;
+}
+
+.profile-title,
+.experience-title {
+  background: var(--bgcolor);
+}
+.profile-title .section-title-text,
+.experience-title .section-title-text {
+  color: white;
+}
+
+.skills-title {
+  background: white;
+}
+.skills-title .section-title-text {
+  color: var(--color);
+}
+
+.contact-title {
+  background: #3A3A3A;
+}
+.contact-title .section-title-text {
+  color: white;
+}
+
+
+/* PC */
+@media screen and (min-width: 630.1px) {
+  section {
+    display: flex;
+  }
+  .section-title, .section-content {
+    width: 50%;
+  }
+  .section-title-text {
+    top: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+  }
+}
+
+/* SP */
+@media screen and (max-width: 630px) {
+  .section-title {
+    height: 40px;
+  }
+  .section-title-text {
+    top: 0;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    line-height: 40px;
+  }
+}
 
 /* -------------------------------------------------------------------------- */
 
