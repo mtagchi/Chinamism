@@ -1,13 +1,11 @@
 <?php get_header(); ?>
 
 <main>
-<<<<<<< HEAD
-  <section class="video-container">
-  <video src= "http://chinamism.local/wp-content/uploads/2020/08/test_video.mp4" autoplay muted>
-    </video>
-  <h1 class="top-quote">“Dance like no one's watching.<br>  Sing like no one's listening.”</h1>
-=======
-  <section id="top"></section>
+  <section id="top"class="video-container">
+    <video src= "http://chinamism.local/wp-content/uploads/2020/08/test_video.mp4" autoplay muted>
+      </video>
+    <h1 class="top-quote">“Dance like no one's watching.<br>  Sing like no one's listening.”</h1>
+  </section>
 
   <section id="profile">
     <div class="section-title profile-title">
@@ -51,7 +49,6 @@
 
     <div class="section-content contact-content">
     </div>
->>>>>>> master
   </section>
 </main>
 
