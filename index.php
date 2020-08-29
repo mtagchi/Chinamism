@@ -1,9 +1,9 @@
 <?php get_header(); ?>
 
 <main>
-  <section class="top"></section>
+  <section id="top"></section>
 
-  <section class="profile">
+  <section id="profile">
     <div class="section-title profile-title">
       <h1 class="section-title-text">
         PROFILE
@@ -14,7 +14,7 @@
     </div>
   </section>
 
-  <section class="skills">
+  <section id="skills">
     <div class="section-title skills-title">
       <h1 class="section-title-text">
         SKILLS<br>&<br>QUALIFICATIONS
@@ -25,7 +25,7 @@
     </div>
   </section>
 
-  <section class="experience">
+  <section id="experience">
     <div class="section-title experience-title">
       <h1 class="section-title-text">
         EXPERIENCES
@@ -36,7 +36,7 @@
     </div>
   </section>
 
-  <section class="contact">
+  <section id="contact">
     <div class="section-title contact-title">
       <h1 class="section-title-text">
         CONTACT

@@ -168,7 +168,7 @@ header {
   text-decoration: none;
 }
 
-@media screen and (max-width: 520px) {
+@media screen and (max-width: 630px) {
   .nav-list-item:not(:last-child) {
     display: none;
   }
@@ -185,20 +185,20 @@ section.top {
 }
 
 section:not(.top) {
-  height: calc(100vh - 60px);
+  height: 100vh;
   min-height: 500px;
+  margin-top: -60px;
+  padding-top: 60px;
 }
 
 .section-title {
   position: relative;
+  overflow-y: hidden;
 }
 
 .section-title-text {
   position: absolute;
-  top: 50%;
   left: 50%;
-  transform: translateY(-50%) translateX(-50%);
-  -webkit-transform: translateY(-50%) translateX(-50%);
   text-align: center;
   font-size: 28px;
 }
@@ -228,21 +228,29 @@ section:not(.top) {
 
 
 /* PC */
-@media screen and (min-width: 700.1px) {
+@media screen and (min-width: 630.1px) {
   section {
     display: flex;
   }
   .section-title, .section-content {
     width: 50%;
   }
+  .section-title-text {
+    top: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+  }
 }
 
 /* SP */
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 630px) {
   .section-title {
     height: 40px;
   }
   .section-title-text {
+    top: 0;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
     line-height: 40px;
   }
 }
