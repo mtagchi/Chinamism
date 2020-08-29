@@ -128,11 +128,7 @@ main {
 header {
   display: flex;
   justify-content: space-between;
-<<<<<<< HEAD
   background-color: #29292900;  
-=======
-  background-color: var(--header);
->>>>>>> master
   height: 60px;
   padding: 0 30px;
   position: fixed;
@@ -172,20 +168,12 @@ header {
   text-decoration: none;
 }
 
-<<<<<<< HEAD
 .nav-list-item:hover{
   color: #9E333C;
   opacity: 0.7;
 }
 
-
-
-
-
-@media screen and (max-width:520px) {
-=======
 @media screen and (max-width: 630px) {
->>>>>>> master
   .nav-list-item:not(:last-child) {
     display: none;
   }
