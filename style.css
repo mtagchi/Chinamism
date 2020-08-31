@@ -128,7 +128,7 @@ main {
 header {
   display: flex;
   justify-content: space-between;
-  background-color: #29292900;  
+  background-color: #292929;  
   height: 60px;
   padding: 0 30px;
   position: fixed;
@@ -266,6 +266,10 @@ video{
 }
 
 @media screen and (min-width: 480.1px) and (max-width: 740px) {
+  section#top {
+    height: 500px;
+    overflow-y: hidden;
+  }
   video{
     width: auto;
     height: 500px
@@ -273,6 +277,10 @@ video{
 }
 
 @media screen and (min-width: 320px) and (max-width: 480px) {
+  section#top {
+    height: 812px;
+    overflow-y: hidden;
+  }
   video{
     width: auto;
     height: 812px;
@@ -291,11 +299,11 @@ video{
 
 
 
-section.top {
-  height: 100vh;
+section#top {
+  /* height: 100vh; */
 }
 
-section:not(.top) {
+section:not(#top) {
   height: 100vh;
   min-height: 500px;
   margin-top: -60px;
