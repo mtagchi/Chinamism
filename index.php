@@ -32,26 +32,12 @@
 
     </div>
 
-    </div>
+    </div>  
   </section>
 
 
 
-<<<<<<< HEAD
 
-
-
-
-
-
-
-
-
-
-
-
-=======
->>>>>>> origin
   <section id="skills">
     <div class="section-title skills-title">
       <h1 class="section-title-text">
