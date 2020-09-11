@@ -21,3 +21,9 @@ add_theme_support( 'post-thumbnails' );
 
 // Title
 add_theme_support( 'title-tag' );
+
+// CSS/JavaScript
+add_action( 'wp_enqueue_scripts', function() {
+  wp_enqueue_style( 'main', get_template_directory_uri() . '/style.css' );
+  wp_enqueue_script( 'smart-script', get_template_directory_uri() . '/main.js', array( 'jquery' ) );
+});
