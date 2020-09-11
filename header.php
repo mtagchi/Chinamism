@@ -24,7 +24,7 @@
         <a href=<?php echo home_url( '/#skills' ) ?> class="nav-list-item">Skills</a>
         <a href=<?php echo home_url( '/#experience' ) ?> class="nav-list-item">Experience</a>
         <a href=<?php echo home_url( '/#contact' ) ?> class="nav-list-item">Contact</a>
-        <a href="schedule" class="nav-list-item">Schedule</a>
+        <a href=<?php echo home_url( '/schedule' ) ?> class="nav-list-item">Schedule</a>
       </ul>
     </div>
   </header>

@@ -195,14 +195,43 @@ video{
 
 }
 
-.top-quote{
+.top-text{
   position: absolute;
   font-family: 'Amatic SC', cursive;
-  letter-spacing: 2px;
-  text-align: center;
   color: #FFFFFF;
   /* padding-top: 270px; */
   animation: fadein-quote 3s ease-in-out;
+}
+
+.top-quote {
+  letter-spacing: 2px;
+  text-align: center;
+}
+
+.btn-area{
+  display: flex;
+  justify-content: flex-end;
+}
+
+.btn-schedule{
+  font-size: 16px;
+  font-family: sans-serif;
+  background-color: #9e333c;
+  border-radius: 20px;
+  color: #FFF;
+  text-decoration: none;
+  padding: 10px 22px;
+  cursor: pointer;
+  margin-top: 36px;
+  margin-right: 8px;
+}
+
+.btn-schedule:hover {
+  background-color: #9e333cb3;
+}
+.btn-schedule:active {
+  top: 3px;
+  box-shadow: none;
 }
 
 @keyframes fadein-quote{
@@ -216,9 +245,8 @@ video{
 
   }
 }
-
 @media screen and (min-width: 1200.1px) {
-  .top-quote{
+  .top-text{
     font-size: 60px; 
     width: 600px;
     top: 35%;
@@ -227,7 +255,7 @@ video{
 }
 
 @media screen and (min-width: 800.1px) and (max-width: 1200px) {
-  .top-quote{
+  .top-text{
     font-size: 60px; 
     width: 600px;
     top: 35%;
@@ -236,7 +264,7 @@ video{
 }
 
 @media screen and (min-width: 600.1px) and (max-width: 800px) {
-  .top-quote{
+  .top-text{
     font-size: 60px; 
     width: 600px;
     left: 50%;
@@ -246,7 +274,7 @@ video{
 }
 
 @media screen and (min-width: 480.1px) and (max-width: 600px) {
-  .top-quote{
+  .top-text{
     font-size: 45px;
     width: 480px;
     left: 50%;
@@ -256,7 +284,7 @@ video{
 }
 
 @media screen and (min-width: 320px) and (max-width: 480px) {
-  .top-quote{
+  .top-text{
     font-size: 30px;
     width: 480px;
     left: 50%;
@@ -265,7 +293,7 @@ video{
   }
 }
 
-@media screen and (min-width: 480.1px) and (max-width: 740px) {
+@media screen and (min-width: 480.1px) and (max-width: 800px) {
   section#top {
     height: 500px;
     overflow-y: hidden;
@@ -289,19 +317,20 @@ video{
   }
 }
 
-
-
-
-
-
-
-
-
-
-
-section#top {
-  /* height: 100vh; */
+@media screen and (min-width: 600.1px) and (max-width: 800px) {
+  .btn-schedule{
+    margin-top: 10px;
+  }
 }
+
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  .btn-area{
+    justify-content: center;
+  }
+}
+
+
 
 section:not(#top) {
   height: 100vh;
@@ -330,6 +359,32 @@ section:not(#top) {
 .experience-title .section-title-text {
   color: white;
 }
+
+.profile-content{
+  margin: 240px 40px 0px 40px;
+
+}
+
+.profile-name{
+  font-size: 16px;
+  margin-bottom: 4px;
+}
+
+p{
+  font-size: 13px;
+  margin-bottom: 80px;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 .skills-title {
   background: white;
