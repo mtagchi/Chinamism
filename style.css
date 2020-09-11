@@ -133,7 +133,7 @@ h3 {
 header {
   display: flex;
   justify-content: space-between;
-  background-color: #292929;  
+  background-color: var(--header);
   height: 60px;
   padding: 0 30px;
   position: fixed;
@@ -154,7 +154,7 @@ header {
 }
 
 .chinami_logo a {
-  color: #FFFFFF;
+  color: white;
   text-decoration: none;
 }
 
@@ -174,7 +174,7 @@ header {
 }
 
 .nav-list-item:hover{
-  color: #9E333C;
+  color: var(--header-btn);
   opacity: 0.7;
 }
 
@@ -233,17 +233,16 @@ video{
   font-family: 'Amatic SC', cursive;
   letter-spacing: 2px;
   text-align: center;
-  color: #FFFFFF;
-  /* padding-top: 270px; */
+  color: white;
   animation: fadein-quote 3s ease-in-out;
 }
 
 @keyframes fadein-quote{
-  0%{
+  0% {
     opacity: 0;
     padding-top: 50px;
   }
-  100%{
+  100% {
     opacity: 1;
     padding-top: 0px;
 
