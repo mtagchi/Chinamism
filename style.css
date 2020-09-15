@@ -370,7 +370,7 @@ section:not(#top) {
 
 .contact-content p,
 .contact-content h3 {
-  padding-bottom: 32px;
+  padding-bottom: 28px;
 }
 
 .contact-content p span,
@@ -384,6 +384,10 @@ section:not(#top) {
   justify-content: flex-end;
 }
 
+.contact-content .sns-icons {
+  margin-bottom: 28px;
+}
+
 .sns-icons > * {
   outline: none;
   margin-left: 16px;
@@ -394,8 +398,33 @@ section:not(#top) {
   height: 40px;
 }
 
+.instagram-embed {
+  display: flex;
+  justify-content: center;
+}
+
 
 /* PC */
+@media screen and (min-width: 910.1px) {
+  .contact-content .instagram-media {
+    width: 375px;
+    height: 264px;
+  }
+}
+
+@media screen and (min-width: 809.1px) and (max-width: 910px) {
+  .contact-content .instagram-media {
+    width: 324px;
+    height: 235px;
+  }
+}
+
+@media screen and (min-width: 630.1px) and (max-width: 809px) {
+  .instagram-embed {
+    display: none;
+  }
+}
+
 @media screen and (min-width: 630.1px) {
   section {
     display: flex;
@@ -420,6 +449,10 @@ section:not(#top) {
     transform: translateX(-50%);
     -webkit-transform: translateX(-50%);
     line-height: 40px;
+  }
+  .contact-content .instagram-media {
+    width: 324px;
+    height: 235px;
   }
 }
 
