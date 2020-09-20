@@ -1,4 +1,5 @@
 jQuery(function () {
+  // Scheduleページ: 曜日を取得
   const getDay = () => {
     let events = jQuery(".calendar-left");
     events.each((i, e) => {
@@ -14,4 +15,12 @@ jQuery(function () {
   if (location.href.indexOf("schedule") > 0) {
     getDay();
   }
+
+
+  // Skills: 開閉
+  jQuery(".expanel-header").on("click", e => {
+    jQuery(e.currentTarget)
+      .next(".expanel-body").slideToggle()
+      .parent().toggleClass("expanded");
+  })
 });

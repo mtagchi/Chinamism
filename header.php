@@ -11,7 +11,7 @@
 </head>
 
 <body <?php body_class(); ?>>
-  <header>
+  <header class="unselectable">
     <div class="nav-left">
       <h1 class="chinami_logo">
           <a href=<?php echo home_url( '/' ) ?>>CHINAMISM</a>
