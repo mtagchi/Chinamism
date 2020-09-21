@@ -320,7 +320,7 @@ video{
 @media screen and (min-width: 320px) and (max-width: 480px) {
   .top-text{
     font-size: 30px;
-    width: 480px;
+    width: 320px;
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
@@ -395,19 +395,129 @@ section:not(#top) {
 }
 
 .profile-content{
-  margin: 240px 40px 0px 40px;
-
+  margin: 80px 20px 0px 20px;
+  position: relative;
 }
+
+@media screen and (max-width: 630px) {
+  .profile-content {
+    margin: 30px 20px 0px 20px;
+  }
+}
+
+.profile-icon{
+  max-width: 155px;
+  border-radius: 50%;
+  border: 2px solid #fff;
+  position: absolute;
+  left: -20px;
+  transform: translateX(-50%);
+}
+
+@media screen and (max-width: 630px) {
+  .profile-icon{
+    display: none;
+  }
+}
+
+@media screen and (min-width: 630.1px) {
+  .profile-name{
+    padding-left: 65px;
+  }
+  .profile-description{
+    padding-left: 65px;
+  }
+}
+
 
 .profile-name{
   font-size: 16px;
   margin-bottom: 4px;
 }
 
-p{
+
+.profile-description{
   font-size: 13px;
-  margin-bottom: 80px;
+  margin-bottom: 60px;
 }
+
+.profile-slide-banner{
+  display: flex;
+  flex-wrap: wrap;
+  height: 400px;
+  width: 100%;
+  overflow-x: auto;
+  overflow-y: hidden;
+  scroll-snap-type: x mandatory;
+}
+
+.profile-item{
+  width: calc(100%/3 - 20px);
+  padding: 0 10px;
+}
+
+
+#wrap{
+  display: flex;
+  height: 100%;
+  align-items: stretch;
+}
+
+.hb{
+  position:relative;
+  width:400px;
+  align-items:center;
+  trasnform:scale(.97);
+  scroll-snap-align: center;
+}
+
+.c{
+  position:relative;
+  display:block;
+  margin: 0 4%;
+  max-width: calc(100vw - 40px);
+}
+
+.c img {
+  position:relative;
+  display:block;
+  filter: grayscale(100%);
+}
+
+.c img:hover{
+  filter: grayscale(0);
+}
+
+
+
+
+
+
+
+
+
+.txt {
+  position:absolute;
+  top:100%; left:10%;
+  width:80%;
+  opacity:0;
+  padding:1em 0 0 1em;
+  border-left:1px solid;
+  z-index:1;
+  transition:transform .2s, opacity .5s;
+}
+
+.txt h1{
+    font-size:1.2em;
+    font-weight:700;
+    text-transform:uppercase;
+}
+
+.hb:hover .txt {
+  opacity:1;
+  transform:scaleY(1) translateY(0);
+}
+
 
 
 
@@ -435,7 +545,7 @@ p{
 }
 
 .contact-content {
-  padding: 60px 40px 40px;
+  padding: 60px 20px 20px;
 }
 
 .contact-content p,
