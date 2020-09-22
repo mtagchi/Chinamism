@@ -1,21 +1,26 @@
-// jQuery(document).ready(function(){
-//     var docWidth = jQuery('body').width(),
-//         $wrap = jQuery('#wrap'),
-//         $images = jQuery('#wrap .hb'),
-//         slidesWidth = $wrap.width();
-    
-//     jQuery(window).on('resize', function(){
-//       docWidth = jQuery('body').width();
-//       slidesWidth = $wrap.width();
-//     })
-    
-//     jQuery(document).mousemove(function(e) {
-//       var mouseX = e.pageX,
-//           offset = mouseX / docWidth * slidesWidth - mouseX / 2;
-      
-//       $images.css({
-//         '-webkit-transform': 'translate3d(' + -offset + 'px,0,0)',
-//                 'transform': 'translate3d(' + -offset + 'px,0,0)'
-//       });
-//     });
-//   })
+jQuery(function () {
+  // Scheduleページ: 曜日を取得
+  const getDay = () => {
+    let events = jQuery(".calendar-left");
+    events.each((i, e) => {
+      let event = jQuery(e);
+      let dayHtml = event.find(".calendar-day");
+      let date = new Date(event.find(".calendar-date .simcal-event-start-date").attr("content"));
+      let day = date.getDay();
+      let dayJp = ["日", "月", "火", "水", "木", "金", "土"][day];
+      dayHtml.text(`(${dayJp})`);
+    })
+  }
+
+  if (location.href.indexOf("schedule") > 0) {
+    getDay();
+  }
+
+
+  // Skills: 開閉
+  jQuery(".expanel-header").on("click", e => {
+    jQuery(e.currentTarget)
+      .next(".expanel-body").slideToggle()
+      .parent().toggleClass("expanded");
+  })
+});

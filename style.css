@@ -124,6 +124,14 @@ h3 {
   font-size: 20px;
 }
 
+.unselectable {
+  -ms-user-select: none;
+  -moz-user-select: -moz-none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  user-select: none;
+}
+
 
 /* -------------------------------------------------------------------------- */
 
@@ -187,6 +195,7 @@ header {
 footer {
   font-size: 12px;
   color: var(--footer);
+  background: #fcfcfc;
   display: flex;
   flex-direction: column;
 }
@@ -537,6 +546,56 @@ section:not(#top) {
   color: var(--color);
 }
 
+.skills-content {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: nowrap;
+}
+
+.expanel {
+  max-width: 432px;
+  margin-bottom: 20px;
+  background: #ECE7E6;
+  border-radius: 2px;
+}
+
+.expanel-header {
+  position: relative;
+  text-align: center;
+  height: 40px;
+  cursor: pointer;
+}
+
+.expanel-title {
+  display: inline-block;
+  line-height: 40px;
+}
+
+.expanel-icon {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 40px;
+  height: 40px;
+  padding: 12px;
+}
+
+.expanel.expanded .expand,
+.expanel:not(.expanded) .shorten {
+  display: none;
+}
+
+.expanel-body {
+  padding: 8px 12px;
+  font-size: 15px;
+}
+
+.expanel:not(.expanded) .expanel-body {
+  display: none;
+}
+
 .contact-title {
   background: #3A3A3A;
 }
@@ -550,7 +609,7 @@ section:not(#top) {
 
 .contact-content p,
 .contact-content h3 {
-  padding-bottom: 32px;
+  padding-bottom: 28px;
 }
 
 .contact-content p span,
@@ -564,6 +623,10 @@ section:not(#top) {
   justify-content: flex-end;
 }
 
+.contact-content .sns-icons {
+  margin-bottom: 28px;
+}
+
 .sns-icons > * {
   outline: none;
   margin-left: 16px;
@@ -574,8 +637,36 @@ section:not(#top) {
   height: 40px;
 }
 
+.instagram-embed {
+  display: flex;
+  justify-content: center;
+}
+
 
 /* PC */
+@media screen and (min-width: 910.1px) {
+  .contact-content .instagram-media {
+    width: 375px;
+    height: 264px;
+  }
+}
+
+@media screen and (min-width: 809.1px) and (max-width: 910px) {
+  .contact-content .instagram-media {
+    width: 324px;
+    height: 235px;
+  }
+}
+
+@media screen and (min-width: 630.1px) and (max-width: 809px) {
+  .instagram-embed {
+    display: none;
+  }
+  .expanel-icon {
+    display: none;
+  }
+}
+
 @media screen and (min-width: 630.1px) {
   section {
     display: flex;
@@ -587,6 +678,13 @@ section:not(#top) {
     top: 50%;
     transform: translate(-50%, -50%);
     -webkit-transform: translate(-50%, -50%);
+  }
+  .skills-content, .contact-content {
+    padding: 60px 40px 40px;
+  }
+  .expanel {
+    min-width: 235px;
+    width: calc(50vw - 80px);
   }
 }
 
@@ -600,6 +698,17 @@ section:not(#top) {
     transform: translateX(-50%);
     -webkit-transform: translateX(-50%);
     line-height: 40px;
+  }
+  .contact-content .instagram-media {
+    width: 324px;
+    height: 235px;
+  }
+  .skills-content, .contact-content {
+    padding: 60px 20px 20px;
+  }
+  .expanel {
+    min-width: 280px;
+    width: calc(100% - 16px);
   }
 }
 
