@@ -528,17 +528,6 @@ section:not(#top) {
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
 .skills-title {
   background: white;
 }
@@ -595,6 +584,25 @@ section:not(#top) {
 .expanel:not(.expanded) .expanel-body {
   display: none;
 }
+
+@media screen and (min-width: 630.1px) and (max-width: 700px) {
+  .expanel-title{
+    overflow: hidden;
+    width: 182px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+
+  }
+}
+
+
+
+
+
+
+
+
+
 
 .contact-title {
   background: #3A3A3A;
@@ -680,7 +688,7 @@ section:not(#top) {
     -webkit-transform: translate(-50%, -50%);
   }
   .skills-content, .contact-content {
-    padding: 60px 40px 40px;
+    padding: 160px 40px 40px;
   }
   .expanel {
     min-width: 235px;

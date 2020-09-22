@@ -85,59 +85,47 @@
     <div class="section-content skills-content">
       <div class="expanel">
         <div class="expanel-header unselectable">
-          <div class="expanel-title">全米ヨガアライアンスRYT200</div>
+          <div class="expanel-title">Les Mills Body Balance</div>
           <svg class="expanel-icon expand" height="426.66667pt" viewBox="0 0 426.66667 426.66667" width="426.66667pt" xmlns="http://www.w3.org/2000/svg"><path d="m405.332031 192h-170.664062v-170.667969c0-11.773437-9.558594-21.332031-21.335938-21.332031-11.773437 0-21.332031 9.558594-21.332031 21.332031v170.667969h-170.667969c-11.773437 0-21.332031 9.558594-21.332031 21.332031 0 11.777344 9.558594 21.335938 21.332031 21.335938h170.667969v170.664062c0 11.777344 9.558594 21.335938 21.332031 21.335938 11.777344 0 21.335938-9.558594 21.335938-21.335938v-170.664062h170.664062c11.777344 0 21.335938-9.558594 21.335938-21.335938 0-11.773437-9.558594-21.332031-21.335938-21.332031zm0 0"/></svg>
           <svg class="expanel-icon shorten" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 409.6 409.6" style="enable-background:new 0 0 409.6 409.6;" xml:space="preserve"><g><g><path d="M392.533,187.733H17.067C7.641,187.733,0,195.374,0,204.8s7.641,17.067,17.067,17.067h375.467 c9.426,0,17.067-7.641,17.067-17.067S401.959,187.733,392.533,187.733z"/></g></g></svg>
         </div>
         <div class="expanel-body">
-          Preußen war ein seit dem Spätmittelalter bestehendes Land an der Ostsee, zwischen Pommern, Polen und Litauen. Sein Name wurde nach 1701 auf ein weit größeres, aus Brandenburg-Preußen hervorgegangenes Staatswesen ausgedehnt, das schließlich fast ganz Deutschland nördlich der Mainlinie umfasste und bis zum Ende des Zweiten Weltkrieges bestand.
+        ニュージーランド発祥のヨガをベースに太極拳やピラティスの動きも取り入れた、グループエクササイズプログラムを修得
         </div>
       </div>
 
       <div class="expanel">
         <div class="expanel-header unselectable">
-          <div class="expanel-title">全米ヨガアライアンスRYT200</div>
+          <div class="expanel-title">Les Mills Body Attack</div>
           <svg class="expanel-icon expand" height="426.66667pt" viewBox="0 0 426.66667 426.66667" width="426.66667pt" xmlns="http://www.w3.org/2000/svg"><path d="m405.332031 192h-170.664062v-170.667969c0-11.773437-9.558594-21.332031-21.335938-21.332031-11.773437 0-21.332031 9.558594-21.332031 21.332031v170.667969h-170.667969c-11.773437 0-21.332031 9.558594-21.332031 21.332031 0 11.777344 9.558594 21.335938 21.332031 21.335938h170.667969v170.664062c0 11.777344 9.558594 21.335938 21.332031 21.335938 11.777344 0 21.335938-9.558594 21.335938-21.335938v-170.664062h170.664062c11.777344 0 21.335938-9.558594 21.335938-21.335938 0-11.773437-9.558594-21.332031-21.335938-21.332031zm0 0"/></svg>
           <svg class="expanel-icon shorten" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 409.6 409.6" style="enable-background:new 0 0 409.6 409.6;" xml:space="preserve"><g><g><path d="M392.533,187.733H17.067C7.641,187.733,0,195.374,0,204.8s7.641,17.067,17.067,17.067h375.467 c9.426,0,17.067-7.641,17.067-17.067S401.959,187.733,392.533,187.733z"/></g></g></svg>
         </div>
         <div class="expanel-body">
-          Preußen war ein seit dem Spätmittelalter bestehendes Land an der Ostsee, zwischen Pommern, Polen und Litauen. Sein Name wurde nach 1701 auf ein weit größeres, aus Brandenburg-Preußen hervorgegangenes Staatswesen ausgedehnt, das schließlich fast ganz Deutschland nördlich der Mainlinie umfasste und bis zum Ende des Zweiten Weltkrieges bestand.
+        シェイプアップをしながらカロリー燃焼を目指す人におすすめのワークアウト。 心肺機能、敏捷性、筋力強化が叶うプログラムを修得
         </div>
       </div>
 
       <div class="expanel">
         <div class="expanel-header unselectable">
-          <div class="expanel-title">全米ヨガアライアンスRYT200</div>
+          <div class="expanel-title">Les Mills Body Jam</div>
           <svg class="expanel-icon expand" height="426.66667pt" viewBox="0 0 426.66667 426.66667" width="426.66667pt" xmlns="http://www.w3.org/2000/svg"><path d="m405.332031 192h-170.664062v-170.667969c0-11.773437-9.558594-21.332031-21.335938-21.332031-11.773437 0-21.332031 9.558594-21.332031 21.332031v170.667969h-170.667969c-11.773437 0-21.332031 9.558594-21.332031 21.332031 0 11.777344 9.558594 21.335938 21.332031 21.335938h170.667969v170.664062c0 11.777344 9.558594 21.335938 21.332031 21.335938 11.777344 0 21.335938-9.558594 21.335938-21.335938v-170.664062h170.664062c11.777344 0 21.335938-9.558594 21.335938-21.335938 0-11.773437-9.558594-21.332031-21.335938-21.332031zm0 0"/></svg>
           <svg class="expanel-icon shorten" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 409.6 409.6" style="enable-background:new 0 0 409.6 409.6;" xml:space="preserve"><g><g><path d="M392.533,187.733H17.067C7.641,187.733,0,195.374,0,204.8s7.641,17.067,17.067,17.067h375.467 c9.426,0,17.067-7.641,17.067-17.067S401.959,187.733,392.533,187.733z"/></g></g></svg>
         </div>
         <div class="expanel-body">
-          Preußen war ein seit dem Spätmittelalter bestehendes Land an der Ostsee, zwischen Pommern, Polen und Litauen. Sein Name wurde nach 1701 auf ein weit größeres, aus Brandenburg-Preußen hervorgegangenes Staatswesen ausgedehnt, das schließlich fast ganz Deutschland nördlich der Mainlinie umfasste und bis zum Ende des Zweiten Weltkrieges bestand.
+        ヒップホップ、トラップ、ハウスミュージックやあらゆるエレクトロニック・ダンス・ミュージック（EDM）など様々な音楽ジャンル、カルチャー、そしてダンスを組み合わせたワークアウト
         </div>
       </div>
 
       <div class="expanel">
         <div class="expanel-header unselectable">
-          <div class="expanel-title">全米ヨガアライアンスRYT200</div>
+          <div class="expanel-title">ホットコラーゲンスタジオ　美彩心</div>
           <svg class="expanel-icon expand" height="426.66667pt" viewBox="0 0 426.66667 426.66667" width="426.66667pt" xmlns="http://www.w3.org/2000/svg"><path d="m405.332031 192h-170.664062v-170.667969c0-11.773437-9.558594-21.332031-21.335938-21.332031-11.773437 0-21.332031 9.558594-21.332031 21.332031v170.667969h-170.667969c-11.773437 0-21.332031 9.558594-21.332031 21.332031 0 11.777344 9.558594 21.335938 21.332031 21.335938h170.667969v170.664062c0 11.777344 9.558594 21.335938 21.332031 21.335938 11.777344 0 21.335938-9.558594 21.335938-21.335938v-170.664062h170.664062c11.777344 0 21.335938-9.558594 21.335938-21.335938 0-11.773437-9.558594-21.332031-21.335938-21.332031zm0 0"/></svg>
           <svg class="expanel-icon shorten" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 409.6 409.6" style="enable-background:new 0 0 409.6 409.6;" xml:space="preserve"><g><g><path d="M392.533,187.733H17.067C7.641,187.733,0,195.374,0,204.8s7.641,17.067,17.067,17.067h375.467 c9.426,0,17.067-7.641,17.067-17.067S401.959,187.733,392.533,187.733z"/></g></g></svg>
         </div>
         <div class="expanel-body">
-          Preußen war ein seit dem Spätmittelalter bestehendes Land an der Ostsee, zwischen Pommern, Polen und Litauen. Sein Name wurde nach 1701 auf ein weit größeres, aus Brandenburg-Preußen hervorgegangenes Staatswesen ausgedehnt, das schließlich fast ganz Deutschland nördlich der Mainlinie umfasste und bis zum Ende des Zweiten Weltkrieges bestand.
+        『セルフマッサージ＋コラーゲントリートメントランプ(R)＋サプリメント＋溶岩浴』を合わせた、セルフメンテナンス型のプログラムを修了
         </div>
       </div>
-
-      <div class="expanel">
-        <div class="expanel-header unselectable">
-          <div class="expanel-title">全米ヨガアライアンスRYT200</div>
-          <svg class="expanel-icon expand" height="426.66667pt" viewBox="0 0 426.66667 426.66667" width="426.66667pt" xmlns="http://www.w3.org/2000/svg"><path d="m405.332031 192h-170.664062v-170.667969c0-11.773437-9.558594-21.332031-21.335938-21.332031-11.773437 0-21.332031 9.558594-21.332031 21.332031v170.667969h-170.667969c-11.773437 0-21.332031 9.558594-21.332031 21.332031 0 11.777344 9.558594 21.335938 21.332031 21.335938h170.667969v170.664062c0 11.777344 9.558594 21.335938 21.332031 21.335938 11.777344 0 21.335938-9.558594 21.335938-21.335938v-170.664062h170.664062c11.777344 0 21.335938-9.558594 21.335938-21.335938 0-11.773437-9.558594-21.332031-21.335938-21.332031zm0 0"/></svg>
-          <svg class="expanel-icon shorten" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 409.6 409.6" style="enable-background:new 0 0 409.6 409.6;" xml:space="preserve"><g><g><path d="M392.533,187.733H17.067C7.641,187.733,0,195.374,0,204.8s7.641,17.067,17.067,17.067h375.467 c9.426,0,17.067-7.641,17.067-17.067S401.959,187.733,392.533,187.733z"/></g></g></svg>
-        </div>
-        <div class="expanel-body">
-          Preußen war ein seit dem Spätmittelalter bestehendes Land an der Ostsee, zwischen Pommern, Polen und Litauen. Sein Name wurde nach 1701 auf ein weit größeres, aus Brandenburg-Preußen hervorgegangenes Staatswesen ausgedehnt, das schließlich fast ganz Deutschland nördlich der Mainlinie umfasste und bis zum Ende des Zweiten Weltkrieges bestand.
-        </div>
-      </div>
-    </div>
   </section>
 
 
