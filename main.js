@@ -21,6 +21,9 @@ jQuery(function () {
   jQuery(".expanel-header").on("click", e => {
     jQuery(e.currentTarget)
       .next(".expanel-body").slideToggle()
-      .parent().toggleClass("expanded");
+      .parent().toggleClass("expanded")
+      .siblings(".expanded")
+        .toggleClass("expanded")
+        .children(".expanel-body").slideToggle();
   })
 });
