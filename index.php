@@ -139,6 +139,46 @@
     </div>
 
     <div class="section-content experience-content">
+      <div class="experience-item">
+        <p><b>【JOYFIT】正社員　2017年4月〜2019年3月</b></p>
+        <p class="ex-sub">レッスンを中心に正社員として店舗運営に携わる。<p>
+        <p class="ex-lesson">−レッスン内容−<p>
+        <ul>
+        <li>Les Mills Body Jam/週２回</li>
+        <li>Les Mills Body Balance/週１回</li>
+        <li>フレックスクッションを使ったレッスン</li>
+        <li>ストレッチポールを使ったレッスン</li>
+        <li>ホットスタジオでの簡単有酸素レッスン</li>
+      </ul>
+      </div>
+
+      <div class="experience-item">
+        <p><b>【BEST STYLE FITNESS】 正社員2019年4月
+      〜2019年12月</b></p>
+      <p class="ex-sub">副店長でスタジオプログラム構成や社員育成等で店舗運営　運営開発</p>
+      <p class="ex-lesson">−レッスン内容−</p>
+      <ul>
+      <li>Les Mills Body Jam/週１回</li>
+      <li>Les Mills Body Balance/週２回</li>
+      <li>Les Mills Body Attack/週２回</li>
+      <li>暗闇ボクシング/週２回</li>
+      <li>TRX/週２回</li>
+      </ul>
+      </div>
+
+      <div class="experience-item">
+        <p><b>【フリーインストラクター】現在</b></p>
+        <p class="ex-sub">OLを本業としながら、フリーインストラクターとして、現在2店舗で活躍中</p>
+        <p class="ex-lesson">−レッスン内容−</p>
+      <ul>
+      <li>Les Mills Body Jam/週１回</li>
+      <li>Les Mills Body Balance/週２回</li>
+      <li>Les Mills Body Attack/週２回</li>
+      </ul>
+        
+      </div>
+
+
     </div>
   </section>
 

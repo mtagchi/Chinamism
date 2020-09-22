@@ -403,6 +403,39 @@ section:not(#top) {
   color: white;
 }
 
+
+.experience-content{
+  overflow: scroll;
+  padding-top: 40px;
+}
+.experience-item{
+  padding: 10px 40px 30px 40px;
+}
+
+.ex-sub{
+  font-size: 14px;
+  padding-top: 5px;
+  padding-bottom:8px;
+  padding-left: 12px;
+}
+
+.ex-lesson{
+  padding-left: 20px;
+  font-size: 14px;
+
+}
+
+
+.experience-item ul{
+  padding-left: 40px;
+  font-size: 12px;
+}
+
+
+
+
+
+
 .profile-content{
   margin: 80px 20px 0px 20px;
   position: relative;
@@ -604,14 +637,6 @@ section:not(#top) {
 }
 
 
-
-
-
-
-
-
-
-
 .contact-title {
   background: #3A3A3A;
 }
@@ -715,6 +740,9 @@ section:not(#top) {
     transform: translateX(-50%);
     -webkit-transform: translateX(-50%);
     line-height: 40px;
+  }
+  .section-content {
+    height: calc(100vh - 100px);
   }
   .contact-content .instagram-media {
     width: 324px;
