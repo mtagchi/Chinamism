@@ -591,7 +591,15 @@ section:not(#top) {
     width: 182px;
     white-space: nowrap;
     text-overflow: ellipsis;
+  }
+}
 
+@media screen and (min-width: 320px) and (max-width: 380px) {
+  .expanel-title{
+    overflow: hidden;
+    width: 220px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
   }
 }
 
