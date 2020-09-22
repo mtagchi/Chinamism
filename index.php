@@ -4,7 +4,12 @@
   <section id="top"class="video-container">
     <video src= "http://chinamism.local/wp-content/uploads/2020/08/test_video.mp4" autoplay muted>
       </video>
-    <h1 class="top-quote">“Dance like no one's watching.<br>  Sing like no one's listening.”</h1>
+    <div class="top-text">
+      <h1 class="top-quote">“Dance like no one's watching.<br>  Sing like no one's listening.”</h1>
+      <div class="btn-area">
+        <a class="btn-schedule" href="<?php echo home_url( '/schedule' ) ?>">schedule</a>
+      </div>
+    </div>
   </section>
 
 
@@ -16,9 +21,57 @@
       </h1>
     </div>
 
+
     <div class="section-content profile-content">
+    <img class ="profile-icon" src="http://chinamism.local/wp-content/uploads/2020/09/icon_img.png">
+      <h3 class="profile-name">Chinami Suzuki</h3>
+      <p class="profile-description">OLをする傍、フリーランスインストラクターとして活動中</p>
+      <p class="profile-description">日本女子体育大学 体育学部運動化学科 舞踊学専攻▶︎インストラクター歴4年目▶︎現在、保険会社のOLをするさながら千葉県を中心としてフリーインストラクターとして活躍中。</p>
+
+
+      <div class="profile-slide-banner">
+        <div id="wrap">
+  <a class="hb">
+    <div class="c">
+      <img src="http://chinamism.local/wp-content/uploads/2020/09/prop_pic1-scaled.jpeg">
+      <div class="txt">
+        <h1>アクティブなことが大好き！</h1>
+        <p>時間がある時は、イントラ仲間や友達と登山に行ったりアクティブに過ごしてます♪</p>
+      </div>
     </div>
+  </a>
+  <a class="hb">
+    <div class="c">
+      <img src="http://chinamism.local/wp-content/uploads/2020/09/prop_pic3.jpg">
+      <div class="txt">
+        <h1>食べることも趣味です！</h1>
+        <p>美味しいものを楽しみながらも、体を引き締めていくことを心掛けています。</p>
+      </div>
+    </div>
+  </a>
+  <a class="hb">
+    <div class="c">
+      <img src="http://chinamism.local/wp-content/uploads/2020/09/S__317464589.jpg">
+      <div class="txt">
+        <h1>運動以外も多趣味です！</h1>
+        <p>ディズニーやKPOPなど好きなもの多々。笑<br>是非、お気軽に話しかけてください！</p>
+      </div>
+    </div>
+  </a>
+  <a class="hb">
+    <div class="c">
+      <img src="http://chinamism.local/wp-content/uploads/2020/09/pic1.jpg">
+      <div class="txt">
+        <h1>ダンス歴19年</h1>
+        <p>特技のダンスを活かしながら、皆さんと楽しくエクササイズを行っていければと思います♪</p>
+      </div>
+    </div>
+  </a>
+</div>
+    </div>
+        </div>
   </section>
+
 
 
 
@@ -169,4 +222,5 @@
   </section>
 </main>
 
-<?php get_footer(); ?>
+  <?php get_footer(); ?>
+        

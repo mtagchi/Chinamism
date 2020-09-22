@@ -237,13 +237,44 @@ video{
 
 }
 
-.top-quote{
+.top-text{
   position: absolute;
   font-family: 'Amatic SC', cursive;
   letter-spacing: 2px;
   text-align: center;
   color: white;
   animation: fadein-quote 3s ease-in-out;
+}
+
+.top-quote {
+  letter-spacing: 2px;
+  text-align: center;
+}
+
+.btn-area{
+  display: flex;
+  justify-content: flex-end;
+}
+
+.btn-schedule{
+  font-size: 16px;
+  font-family: sans-serif;
+  background-color: #9e333c;
+  border-radius: 20px;
+  color: #FFF;
+  text-decoration: none;
+  padding: 10px 22px;
+  cursor: pointer;
+  margin-top: 36px;
+  margin-right: 8px;
+}
+
+.btn-schedule:hover {
+  background-color: #9e333cb3;
+}
+.btn-schedule:active {
+  top: 3px;
+  box-shadow: none;
 }
 
 @keyframes fadein-quote{
@@ -257,9 +288,8 @@ video{
 
   }
 }
-
 @media screen and (min-width: 1200.1px) {
-  .top-quote{
+  .top-text{
     font-size: 60px; 
     width: 600px;
     top: 35%;
@@ -268,7 +298,7 @@ video{
 }
 
 @media screen and (min-width: 800.1px) and (max-width: 1200px) {
-  .top-quote{
+  .top-text{
     font-size: 60px; 
     width: 600px;
     top: 35%;
@@ -277,7 +307,7 @@ video{
 }
 
 @media screen and (min-width: 600.1px) and (max-width: 800px) {
-  .top-quote{
+  .top-text{
     font-size: 60px; 
     width: 600px;
     left: 50%;
@@ -287,7 +317,7 @@ video{
 }
 
 @media screen and (min-width: 480.1px) and (max-width: 600px) {
-  .top-quote{
+  .top-text{
     font-size: 45px;
     width: 480px;
     left: 50%;
@@ -297,16 +327,16 @@ video{
 }
 
 @media screen and (min-width: 320px) and (max-width: 480px) {
-  .top-quote{
+  .top-text{
     font-size: 30px;
-    width: 480px;
+    width: 320px;
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
   }
 }
 
-@media screen and (min-width: 480.1px) and (max-width: 740px) {
+@media screen and (min-width: 480.1px) and (max-width: 800px) {
   section#top {
     height: 500px;
     overflow-y: hidden;
@@ -329,6 +359,21 @@ video{
     position: relative;
   }
 }
+
+@media screen and (min-width: 600.1px) and (max-width: 800px) {
+  .btn-schedule{
+    margin-top: 10px;
+  }
+}
+
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  .btn-area{
+    justify-content: center;
+  }
+}
+
+
 
 section:not(#top) {
   height: 100vh;
@@ -357,6 +402,142 @@ section:not(#top) {
 .experience-title .section-title-text {
   color: white;
 }
+
+.profile-content{
+  margin: 80px 20px 0px 20px;
+  position: relative;
+}
+
+@media screen and (max-width: 630px) {
+  .profile-content {
+    margin: 30px 20px 0px 20px;
+  }
+}
+
+.profile-icon{
+  max-width: 155px;
+  border-radius: 50%;
+  border: 2px solid #fff;
+  position: absolute;
+  left: -20px;
+  transform: translateX(-50%);
+}
+
+@media screen and (max-width: 630px) {
+  .profile-icon{
+    display: none;
+  }
+}
+
+@media screen and (min-width: 630.1px) {
+  .profile-name{
+    padding-left: 65px;
+  }
+  .profile-description{
+    padding-left: 65px;
+  }
+}
+
+
+.profile-name{
+  font-size: 16px;
+  margin-bottom: 4px;
+}
+
+
+.profile-description{
+  font-size: 13px;
+  margin-bottom: 60px;
+}
+
+.profile-slide-banner{
+  display: flex;
+  flex-wrap: wrap;
+  height: 400px;
+  width: 100%;
+  overflow-x: auto;
+  overflow-y: hidden;
+  scroll-snap-type: x mandatory;
+}
+
+.profile-item{
+  width: calc(100%/3 - 20px);
+  padding: 0 10px;
+}
+
+
+#wrap{
+  display: flex;
+  height: 100%;
+  align-items: stretch;
+}
+
+.hb{
+  position:relative;
+  width:400px;
+  align-items:center;
+  trasnform:scale(.97);
+  scroll-snap-align: center;
+}
+
+.c{
+  position:relative;
+  display:block;
+  margin: 0 4%;
+  max-width: calc(100vw - 40px);
+}
+
+.c img {
+  position:relative;
+  display:block;
+  filter: grayscale(100%);
+}
+
+.c img:hover{
+  filter: grayscale(0);
+}
+
+
+
+
+
+
+
+
+
+.txt {
+  position:absolute;
+  top:100%; left:10%;
+  width:80%;
+  opacity:0;
+  padding:1em 0 0 1em;
+  border-left:1px solid;
+  z-index:1;
+  transition:transform .2s, opacity .5s;
+}
+
+.txt h1{
+    font-size:1.2em;
+    font-weight:700;
+    text-transform:uppercase;
+}
+
+.hb:hover .txt {
+  opacity:1;
+  transform:scaleY(1) translateY(0);
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 .skills-title {
   background: white;
@@ -420,6 +601,10 @@ section:not(#top) {
 }
 .contact-title .section-title-text {
   color: white;
+}
+
+.contact-content {
+  padding: 60px 20px 20px;
 }
 
 .contact-content p,
