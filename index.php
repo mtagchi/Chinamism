@@ -4,7 +4,12 @@
   <section id="top"class="video-container">
     <video src= "http://chinamism.local/wp-content/uploads/2020/08/test_video.mp4" autoplay muted>
       </video>
-    <h1 class="top-quote">“Dance like no one's watching.<br>  Sing like no one's listening.”</h1>
+    <div class="top-text">
+      <h1 class="top-quote">“Dance like no one's watching.<br>  Sing like no one's listening.”</h1>
+      <div class="btn-area">
+        <a class="btn-schedule" href="<?php echo home_url( '/schedule' ) ?>">schedule</a>
+      </div>
+    </div>
   </section>
 
 
@@ -16,9 +21,57 @@
       </h1>
     </div>
 
+
     <div class="section-content profile-content">
+    <img class ="profile-icon" src="http://chinamism.local/wp-content/uploads/2020/09/icon_img.png">
+      <h3 class="profile-name">Chinami Suzuki</h3>
+      <p class="profile-description">OLをする傍、フリーランスインストラクターとして活動中</p>
+      <p class="profile-description">日本女子体育大学 体育学部運動化学科 舞踊学専攻▶︎インストラクター歴4年目▶︎現在、保険会社のOLをするさながら千葉県を中心としてフリーインストラクターとして活躍中。</p>
+
+
+      <div class="profile-slide-banner">
+        <div id="wrap">
+  <a class="hb">
+    <div class="c">
+      <img src="http://chinamism.local/wp-content/uploads/2020/09/prop_pic1-scaled.jpeg">
+      <div class="txt">
+        <h1>アクティブなことが大好き！</h1>
+        <p>時間がある時は、イントラ仲間や友達と登山に行ったりアクティブに過ごしてます♪</p>
+      </div>
     </div>
+  </a>
+  <a class="hb">
+    <div class="c">
+      <img src="http://chinamism.local/wp-content/uploads/2020/09/prop_pic3.jpg">
+      <div class="txt">
+        <h1>食べることも趣味です！</h1>
+        <p>美味しいものを楽しみながらも、体を引き締めていくことを心掛けています。</p>
+      </div>
+    </div>
+  </a>
+  <a class="hb">
+    <div class="c">
+      <img src="http://chinamism.local/wp-content/uploads/2020/09/S__317464589.jpg">
+      <div class="txt">
+        <h1>運動以外も多趣味です！</h1>
+        <p>ディズニーやKPOPなど好きなもの多々。笑<br>是非、お気軽に話しかけてください！</p>
+      </div>
+    </div>
+  </a>
+  <a class="hb">
+    <div class="c">
+      <img src="http://chinamism.local/wp-content/uploads/2020/09/pic1.jpg">
+      <div class="txt">
+        <h1>ダンス歴19年</h1>
+        <p>特技のダンスを活かしながら、皆さんと楽しくエクササイズを行っていければと思います♪</p>
+      </div>
+    </div>
+  </a>
+</div>
+    </div>
+        </div>
   </section>
+
 
 
 
@@ -37,7 +90,7 @@
           <svg class="expanel-icon shorten" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 409.6 409.6" style="enable-background:new 0 0 409.6 409.6;" xml:space="preserve"><g><g><path d="M392.533,187.733H17.067C7.641,187.733,0,195.374,0,204.8s7.641,17.067,17.067,17.067h375.467 c9.426,0,17.067-7.641,17.067-17.067S401.959,187.733,392.533,187.733z"/></g></g></svg>
         </div>
         <div class="expanel-body">
-          Preußen war ein seit dem Spätmittelalter bestehendes Land an der Ostsee, zwischen Pommern, Polen und Litauen. Sein Name wurde nach 1701 auf ein weit größeres, aus Brandenburg-Preußen hervorgegangenes Staatswesen ausgedehnt, das schließlich fast ganz Deutschland nördlich der Mainlinie umfasste und bis zum Ende des Zweiten Weltkrieges bestand.
+        ニュージーランド発祥のヨガをベースに太極拳やピラティスの動きも取り入れた、グループエクササイズプログラムを修得
         </div>
       </div>
 
@@ -48,7 +101,7 @@
           <svg class="expanel-icon shorten" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 409.6 409.6" style="enable-background:new 0 0 409.6 409.6;" xml:space="preserve"><g><g><path d="M392.533,187.733H17.067C7.641,187.733,0,195.374,0,204.8s7.641,17.067,17.067,17.067h375.467 c9.426,0,17.067-7.641,17.067-17.067S401.959,187.733,392.533,187.733z"/></g></g></svg>
         </div>
         <div class="expanel-body">
-          Preußen war ein seit dem Spätmittelalter bestehendes Land an der Ostsee, zwischen Pommern, Polen und Litauen. Sein Name wurde nach 1701 auf ein weit größeres, aus Brandenburg-Preußen hervorgegangenes Staatswesen ausgedehnt, das schließlich fast ganz Deutschland nördlich der Mainlinie umfasste und bis zum Ende des Zweiten Weltkrieges bestand.
+        シェイプアップをしながらカロリー燃焼を目指す人におすすめのワークアウト。 心肺機能、敏捷性、筋力強化が叶うプログラムを修得
         </div>
       </div>
 
@@ -59,18 +112,18 @@
           <svg class="expanel-icon shorten" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 409.6 409.6" style="enable-background:new 0 0 409.6 409.6;" xml:space="preserve"><g><g><path d="M392.533,187.733H17.067C7.641,187.733,0,195.374,0,204.8s7.641,17.067,17.067,17.067h375.467 c9.426,0,17.067-7.641,17.067-17.067S401.959,187.733,392.533,187.733z"/></g></g></svg>
         </div>
         <div class="expanel-body">
-          Preußen war ein seit dem Spätmittelalter bestehendes Land an der Ostsee, zwischen Pommern, Polen und Litauen. Sein Name wurde nach 1701 auf ein weit größeres, aus Brandenburg-Preußen hervorgegangenes Staatswesen ausgedehnt, das schließlich fast ganz Deutschland nördlich der Mainlinie umfasste und bis zum Ende des Zweiten Weltkrieges bestand.
+        ヒップホップ、トラップ、ハウスミュージックやあらゆるエレクトロニック・ダンス・ミュージック（EDM）など様々な音楽ジャンル、カルチャー、そしてダンスを組み合わせたワークアウト
         </div>
       </div>
 
       <div class="expanel">
         <div class="expanel-header unselectable">
-          <div class="expanel-title">ホットコラーゲンスタジオ 美彩心</div>
+          <div class="expanel-title">ホットコラーゲンスタジオ　美彩心</div>
           <svg class="expanel-icon expand" height="426.66667pt" viewBox="0 0 426.66667 426.66667" width="426.66667pt" xmlns="http://www.w3.org/2000/svg"><path d="m405.332031 192h-170.664062v-170.667969c0-11.773437-9.558594-21.332031-21.335938-21.332031-11.773437 0-21.332031 9.558594-21.332031 21.332031v170.667969h-170.667969c-11.773437 0-21.332031 9.558594-21.332031 21.332031 0 11.777344 9.558594 21.335938 21.332031 21.335938h170.667969v170.664062c0 11.777344 9.558594 21.335938 21.332031 21.335938 11.777344 0 21.335938-9.558594 21.335938-21.335938v-170.664062h170.664062c11.777344 0 21.335938-9.558594 21.335938-21.335938 0-11.773437-9.558594-21.332031-21.335938-21.332031zm0 0"/></svg>
           <svg class="expanel-icon shorten" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 409.6 409.6" style="enable-background:new 0 0 409.6 409.6;" xml:space="preserve"><g><g><path d="M392.533,187.733H17.067C7.641,187.733,0,195.374,0,204.8s7.641,17.067,17.067,17.067h375.467 c9.426,0,17.067-7.641,17.067-17.067S401.959,187.733,392.533,187.733z"/></g></g></svg>
         </div>
         <div class="expanel-body">
-          Preußen war ein seit dem Spätmittelalter bestehendes Land an der Ostsee, zwischen Pommern, Polen und Litauen. Sein Name wurde nach 1701 auf ein weit größeres, aus Brandenburg-Preußen hervorgegangenes Staatswesen ausgedehnt, das schließlich fast ganz Deutschland nördlich der Mainlinie umfasste und bis zum Ende des Zweiten Weltkrieges bestand.
+        『セルフマッサージ＋コラーゲントリートメントランプ(R)＋サプリメント＋溶岩浴』を合わせた、セルフメンテナンス型のプログラムを修了
         </div>
       </div>
     </div>
@@ -158,4 +211,5 @@
   </section>
 </main>
 
-<?php get_footer(); ?>
+  <?php get_footer(); ?>
+        
