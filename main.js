@@ -1,3 +1,5 @@
+//= require bubbly-bg
+
 jQuery(function () {
   // Scheduleページ: 曜日を取得
   const getDay = () => {
@@ -26,4 +28,13 @@ jQuery(function () {
         .toggleClass("expanded")
         .children(".expanel-body").slideToggle();
   })
+
+  // 背景　バブル
+  bubbly({
+    colorStart: '#fff',
+    colorStop: '#fff',
+    blur:1,
+    compose: 'source-over',
+    bubbleFunc:() => `hsla(${Math.random() * 50}, 100%, 50%, .3)`
+  });
 });
