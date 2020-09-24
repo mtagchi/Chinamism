@@ -1,5 +1,3 @@
-//= require bubbly-bg
-
 jQuery(function () {
   // Scheduleページ: 曜日を取得
   const getDay = () => {
@@ -28,8 +26,10 @@ jQuery(function () {
         .toggleClass("expanded")
         .children(".expanel-body").slideToggle();
   })
+  jQuery(".expanel-header:first").click();
 
-  // 背景　バブル
+
+  // 背景バブル
   bubbly({
     colorStart: '#fff',
     colorStop: '#fff',
