@@ -396,8 +396,17 @@ section:not(#top) {
   font-size: 28px;
 }
 
+.profile-content {
+  overflow-x: visible;
+}
 
-.section-content {
+.profile-content-child {
+  width: 100%;
+  height: 100%;
+}
+
+.section-content:not(.profile-content),
+.profile-content-child {
   overflow-y: scroll;
 }
 
