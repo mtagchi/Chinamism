@@ -524,7 +524,7 @@ section:not(#top) {
   position:relative;
   width:400px;
   align-items:center;
-  trasnform:scale(.97);
+  transform:scale(.97);
   scroll-snap-align: center;
 }
 
