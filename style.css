@@ -379,7 +379,7 @@ video{
 
 section:not(#top) {
   height: 100vh;
-  min-height: 500px;
+  min-height: 600px;
   margin-top: -60px;
   padding-top: 60px;
 }
@@ -396,6 +396,11 @@ section:not(#top) {
   font-size: 28px;
 }
 
+
+.section-content {
+  overflow-y: scroll;
+}
+
 .profile-title,
 .experience-title {
   background: var(--bgcolor);
@@ -407,7 +412,6 @@ section:not(#top) {
 
 
 .experience-content{
-  overflow: scroll;
   padding-top: 40px;
 }
 .experience-item{
