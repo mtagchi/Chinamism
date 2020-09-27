@@ -187,10 +187,10 @@ header {
 }
 
 
-  .nav-list-item:not(:last-child) {
-    display: none;
-  }
+.nav-list-item:not(:last-child) {
+  display: none;
 }
+
 
 footer {
   font-size: 12px;
@@ -489,6 +489,19 @@ section:not(#top) {
   margin-bottom: 60px;
 }
 
+@media screen and (min-width: 320px) and (max-width: 630px) {
+  .profile-description{
+      margin-bottom: 10px;
+    }
+}
+
+
+
+
+
+
+
+
 .profile-slide-banner{
   display: flex;
   flex-wrap: wrap;
@@ -515,7 +528,7 @@ section:not(#top) {
   position:relative;
   width:400px;
   align-items:center;
-  trasnform:scale(.97);
+  transform:scale(.97);
   scroll-snap-align: center;
 }
 
