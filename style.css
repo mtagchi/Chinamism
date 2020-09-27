@@ -225,6 +225,7 @@ footer .heart {
 /* 3. Top page
 /* -------------------------------------------------------------------------- */
 
+  
 
 
 .video-container{
@@ -234,7 +235,7 @@ footer .heart {
 
 video{
   width: calc(100% + 10px);
-  height: auto;
+  height: calc(100% + 10px * 9 / 16);
   position: relative;
 
 }
@@ -293,7 +294,7 @@ video{
 @media screen and (min-width: 1200.1px) {
   .top-text{
     font-size: 60px; 
-    width: 600px;
+    width: 630px;
     top: 35%;
     left: 50%;
   }
@@ -302,9 +303,9 @@ video{
 @media screen and (min-width: 800.1px) and (max-width: 1200px) {
   .top-text{
     font-size: 60px; 
-    width: 600px;
+    width: 630px;
     top: 35%;
-    left: 25%;
+    left: 20%;
   }
 }
 
