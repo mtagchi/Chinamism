@@ -187,10 +187,10 @@ header {
 }
 
 
-  .nav-list-item:not(:last-child) {
-    display: none;
-  }
+.nav-list-item:not(:last-child) {
+  display: none;
 }
+
 
 footer {
   font-size: 12px;
